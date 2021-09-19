@@ -20,16 +20,12 @@ struct PersonalityPageOblect: Page {
     }
 
     func loginUser() -> LoginPageObject {
-//        app.buttons[Identifiers.loginButton].tap()
-//        app.staticTexts[Identifiers.loginButton].tap()
         let tabBar = XCUIApplication().tabBars["Tab Bar"]
         tabBar.buttons[Identifiers.tabButton].tap()
-//        app.buttons[Identifiers.tabButton].tap()
         return LoginPageObject(app: app)
     }
 
     func tapCancelButton() -> LoginPageObject {
-//        app.buttons[Identifiers.registerButton].tap()
         app.staticTexts[Identifiers.loginButton].tap()
         return LoginPageObject(app: app)
     }

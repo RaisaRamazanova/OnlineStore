@@ -4,24 +4,24 @@
 //
 //  Created by Раисат Рамазанова on 20.09.2021.
 //
-
+//
 import XCTest
 import SnapshotTesting
 
 @testable import OnlineStore
 
 final class ScreenTests: XCTestCase {
-    var sut: FirstViewController?
+    var sut: TabBarController?
 
     override func setUp() {
-        sut = FirstViewController()
+        sut = TabBarController()
     }
 
     override func tearDown() {
         sut = nil
     }
-    
+
     func test_screenSnapshot() {
-        assertSnapshot(matching: sut, as: .image(on: .iPhoneSe))
+        assertSnapshot(matching: sut!, as: .image(on: .iPhoneSe))
     }
 }

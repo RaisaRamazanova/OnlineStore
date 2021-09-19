@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BB09E48026F7FE6C00C14AF0"
+               BuildableName = "OnlineStoreSnapshotTest.xctest"
+               BlueprintName = "OnlineStoreSnapshotTest"
+               ReferencedContainer = "container:OnlineStore.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
