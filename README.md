@@ -42,7 +42,7 @@
 
 <img src="https://raw.githubusercontent.com/RaisaRamazanova/Homework/main/photo_2021-09-19%2001.34.10.jpeg" width="200" />
 
-При нажатии на ячейки, ты порадаем на детальный экран
+При нажатии на ячейки, ты попадаем на детальный экран
 
 О нем чуть позже
 
